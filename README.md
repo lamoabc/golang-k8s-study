@@ -3,8 +3,8 @@ study notes
 
 ## 1.notes
 
-this directory stored study notes and code demo documentation
+this directory stored study notes
 
 ## 2.demo
 
-this directory stored  code demo
+this directory stored  Kubernetes demo
