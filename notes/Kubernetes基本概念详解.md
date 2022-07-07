@@ -60,7 +60,7 @@
 
 >Deployments是管理Pod和ReplicaSet的,ReplicaSet是管理Pod的
 >
->![img](.\img\Deployments.png)
+>![img](./img/Deployments.png)
 >
 >Deployments是可以直接管理Pod,也可以管理ReplicaSet,使用Kubernetes时,直接使用Deployments即可,Kubernetes会自动生成符合要求的Pod和ReplicaSet
 

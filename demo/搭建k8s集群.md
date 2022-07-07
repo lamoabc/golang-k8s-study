@@ -234,3 +234,4 @@
 3. 使用`kubeadm`初始化主节点
 4. 用初始化主节点的成功信息,部署`work node`也可以部署`master node`
 
+![](./img/k8s构建简单集群.png)
