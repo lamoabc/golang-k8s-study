@@ -55,6 +55,8 @@
 >Pod对Kubernetes,就如同进程对计算机的意义,同一个Pod中的容器化服务可以通过`localhost`互相访问,就好像部署在了同一台计算机上,不同Pod之间不可以直接通过`localhost`进行访问
 >
 >**Kubernetes中所有对象都是用yaml的形式来表示**
+>
+>深入描述请见Pod详解一文内容
 
 ### Deployments和ReplicaSet
 

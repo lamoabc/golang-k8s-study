@@ -234,4 +234,25 @@
 3. 使用`kubeadm`初始化主节点
 4. 用初始化主节点的成功信息,部署`work node`也可以部署`master node`
 
-![](./img/k8s构建简单集群.png)
+![img](./img/k8s构建简单集群.png)
+
+上图为集群关键概念和组件示意图,但实际集群运行时涉及到的不止这些
+
+使用
+
+```bash
+kubectl get pods -A #查看所有Pod信息
+```
+
+
+
+![img](./img/集群运行时Pod情况.png)
+
+>可以看到实际运行中涉及到Pod与`notes`文件夹中Kubernetes基本概念详解一文中最开始的架构中的组件一致
+>
+>- kube-apiserver
+>- etcd 
+>- kube-scheduler
+>- kube-controller-manager
+>- kubelet
+>- kube-proxy
