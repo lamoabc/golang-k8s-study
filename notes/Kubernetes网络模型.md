@@ -68,7 +68,7 @@ Service 默认的网络协议是 TCP ,其他支持的协议
    >
    >默认的策略是，`kube-proxy` 在 iptables 模式下随机选择一个
 
-   ![](.\img\services-iptables-overview.svg)
+   ![](./img/services-iptables-overview.svg)
 
 3. `ipvs` 代理模式
 
@@ -83,7 +83,7 @@ Service 默认的网络协议是 TCP ,其他支持的协议
    >- `sed`: 最短预期延迟(Shortest Expected Delay)
    >- `nq`: 从不排队(Never Queue)
 
-   ![](.\img\services-ipvs-overview.svg)
+   ![](./img/services-ipvs-overview.svg)
 
 ## 3. Ingress
 
@@ -93,12 +93,12 @@ Ingress 不会公开任意端口或协议.将 HTTP 和 HTTPS 以外的服务公�
 
 Ingress 必须与 Ingress 控制器配合使用,仅创建 Ingress 没有任何效果
 
-![img](.\img\ingress.svg)
+![img](./img/ingress.svg)
 
 
 
 
 
-![](.\img\request.png)
+![](./img/request.png)
 
 网络模型部分概念过多,再详细了解全部相关概念后,补齐本章笔记
